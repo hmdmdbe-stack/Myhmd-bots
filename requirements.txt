@@ -1,4 +1,4 @@
-https://github.com/KurimuzonAkuma/pyrogram/archive/dev.zip
+pyrogram
 tgcrypto
 
 pymongo[srv]
@@ -19,3 +19,4 @@ ffmpeg-python
 Pillow>=9.0.0
 pytube
 click
+

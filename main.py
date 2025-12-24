@@ -35,9 +35,10 @@ if script_path != os.getcwd():
     os.chdir(script_path)
 
 app = Client(
-    "my_account",
+    "bot",
     api_id=config.api_id,
     api_hash=config.api_hash,
+    bot_token=config.bot_token,
     hide_password=True,
     workdir=script_path,
     app_version=userbot_version,
@@ -124,3 +125,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+

@@ -50,5 +50,6 @@ except git.exc.InvalidGitRepositoryError:
     repo.heads.master.checkout(True)
     gitrepo = git.Repo(".")
 
-commits_since_tag = list(gitrepo.iter_commits(f"{gitrepo.tags[-1].name}..HEAD"))
-userbot_version = f"4.0.{len(commits_since_tag)}"
+# commits_since_tag = list(gitrepo.iter_commits(f"{gitrepo.tags[-1].name}..HEAD"))
+commits_since_tag = [] 
+userbot_version = "4.0.0"
